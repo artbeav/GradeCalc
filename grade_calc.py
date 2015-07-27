@@ -1,9 +1,12 @@
 from sys import argv
 
+#Option of creating a text file
 # script, filename = argv
 # txt = open(filename, 'a')
 # txt.write('\n\n')
 
+
+#Variables
 need = 0
 hold = 0
 limit = 0
@@ -15,7 +18,7 @@ assign = {};
 goal = float(raw_input("What would you like your final grade to be? "))
 
 
-
+#Checks what grades you need to obtain your goal
 while limit < 100:
 	
 	if need == 1:
